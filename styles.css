@@ -431,7 +431,7 @@ body {
     background: none;
     border: 2px solid #2563eb;
     color: #2563eb;
-    margin-left: 1rem;
+
     box-shadow: none;
 }
 
@@ -464,6 +464,21 @@ body {
     }
 
     .hero-buttons .cta-button {
+        width: 80%;
+        max-width: 250px;
+    }
+}
+
+
+
+.hero-buttons .secondary-button {
+    flex: 1 1 auto;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+@media (max-width: 600px) {
+    .hero-buttons .secondary-button {
         width: 80%;
         max-width: 250px;
     }
