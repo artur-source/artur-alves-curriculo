@@ -425,3 +425,19 @@ body {
     }
 }
 
+
+
+.secondary-button {
+    background: none;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+    margin-left: 1rem;
+    box-shadow: none;
+}
+
+.secondary-button:hover {
+    background-color: #2563eb;
+    color: white;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}
+
