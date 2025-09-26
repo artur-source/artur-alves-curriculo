@@ -469,3 +469,18 @@ body {
   text-align: center;
 }
 
+
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hero-buttons a {
+  flex: 1;
+  min-width: 160px;
+  max-width: 220px;
+}
+
