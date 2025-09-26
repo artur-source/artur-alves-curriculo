@@ -125,25 +125,7 @@ body {
     margin: 0 auto 2rem;
 }
 
-.cta-button {
-    display: inline-block;
-    background: linear-gradient(135deg, #2563eb, #1d4ed8);
-    color: white;
-    padding: 12px 18px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
-    min-width: 160px;
-    text-align: center;
-    font-size: 16px;
-}
 
-.cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
-}
 
 /* Sections */
 .section {
@@ -425,77 +407,61 @@ body {
 
     .skills-grid {
         justify-content: flex-start;
-    }
+    }.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-
-
-.secondary-button {
-    background: none;
-    border: 2px solid #2563eb;
-    color: #2563eb;
-    box-shadow: none;
-    min-width: 160px;
-    text-align: center;
-    font-size: 16px;
-    padding: 12px 18px;
-    border-radius: 8px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: 0.3s;
+.hero-buttons a {
+  flex: 1;
+  min-width: 160px;
+  max-width: 220px;
 }
-
-.secondary-button:hover {
-    background-color: #2563eb;
-    color: white;
-    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
-}
-
-
-
-
 
 
 
 .hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hero-buttons a {
+  flex: 1;
+  min-width: 160px;
+  max-width: 220px;
+}
+
+
+
+.botoes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
 }
 
-.hero-buttons .cta-button {
+.botoes a {
   min-width: 160px;
   text-align: center;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-
-
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
+.botoes a.contato {
+  background: #2563eb;
+  color: #fff;
 }
 
-.hero-buttons a {
-  flex: 1;
-  min-width: 160px;
-  max-width: 220px;
-}
-
-
-
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.hero-buttons a {
-  flex: 1;
-  min-width: 160px;
-  max-width: 220px;
+.botoes a.portfolio {
+  border: 2px solid #2563eb;
+  color: #2563eb;
 }
 
