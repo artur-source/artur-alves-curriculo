@@ -1,56 +1,24 @@
-# Currículo de Artur Alves
+# Currículo Online - Artur Alves
 
-Uma página de currículo moderna e responsiva desenvolvida em HTML5, CSS3 e JavaScript.
+Este repositório contém o código-fonte do meu currículo online, desenvolvido com foco em clareza, profissionalismo e performance.
 
-## 🚀 Características
-
-- **Design Responsivo**: Adaptável a todos os dispositivos (desktop, tablet, mobile)
-- **Layout Minimalista**: Design limpo e profissional
-- **Menu Fixo**: Navegação suave entre seções
-- **Animações**: Efeitos fade-in ao rolar a página
-- **Interações**: Hover effects e transições suaves
-- **Cores Neutras**: Paleta de cores em branco, cinza e azul
-
-## 📋 Seções
-
-1. **Hero**: Apresentação principal com call-to-action
-2. **Resumo**: Resumo profissional
-3. **Experiência**: Cards com experiências profissionais
-4. **Formação**: Cards com formação acadêmica
-5. **Habilidades**: Hard skills e soft skills organizadas
-6. **Contato**: Informações de contato com links
+## 🚀 Perfil Profissional
+Desenvolvedor Full-stack e Co-fundador da **Core & Patch**. Especialista em arquitetura SaaS, automações e sistemas escaláveis utilizando ecossistemas modernos como React.js, Next.js, TypeScript e Node.js.
 
 ## 🛠️ Tecnologias Utilizadas
+- **Frontend:** HTML5, CSS3, JavaScript, Next.js, Tailwind CSS.
+- **Backend:** Node.js, PHP, tRPC.
+- **Banco de Dados & ORM:** PostgreSQL, MySQL, Supabase, Drizzle, Prisma.
+- **Ferramentas:** Docker, Git, Figma.
 
-- HTML5
-- CSS3 (Flexbox, Grid, Animations)
-- JavaScript (ES6+)
-- Google Fonts (Inter)
+## 📂 Projetos em Destaque
+- **RegiFlex:** Plataforma SaaS para gestão de saúde ([appregiflex.com.br](https://appregiflex.com.br)).
+- **JV STORE:** E-commerce de alta performance ([jvstore.com.br](https://jvstore.com.br)).
+- **Core & Patch:** Software House ([core-patch-website.vercel.app](https://core-patch-website.vercel.app/)).
 
-## 📱 Responsividade
+## 📄 Como visualizar
+O currículo está disponível publicamente através do GitHub Pages:
+👉 [Visualizar Currículo](https://artur-source.github.io/artur-alves-curriculo/)
 
-O site é totalmente responsivo e inclui:
-- Menu hamburger para dispositivos móveis
-- Layout adaptativo para diferentes tamanhos de tela
-- Tipografia e espaçamentos otimizados para mobile
-
-## 🎨 Design
-
-- **Cores Principais**: 
-  - Azul: #2563eb
-  - Cinza: #4b5563, #6b7280
-  - Fundo claro: #f8fafc
-- **Tipografia**: Inter (Google Fonts)
-- **Efeitos**: Gradientes, sombras sutis, transições suaves
-
-## 📧 Contato
-
-- **E-mail**: arturalvessantos2@gmail.com
-- **Telefone**: (11) 94057-2858
-- **LinkedIn**: [linkedin.com/in/artur-alves-a4b297338](https://www.linkedin.com/in/artur-alves-a4b297338)
-- **Localização**: Itaquaquecetuba - São Paulo/SP
-
-## 📄 Licença
-
-© 2025 Artur Alves. Todos os direitos reservados.
-
+---
+© 2026 Artur Alves.
