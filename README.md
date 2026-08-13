@@ -1,24 +1,40 @@
-# Currículo Online - Artur Alves
+# Currículo online — Artur Alves Santos
 
-Este repositório contém o código-fonte do meu currículo online, desenvolvido com foco em clareza, profissionalismo e performance.
+Currículo profissional bilíngue de **Artur Alves Santos**, com versões em português e inglês, PDFs atualizados, links profissionais e publicação estática via GitHub Pages.
 
-## 🚀 Perfil Profissional
-Desenvolvedor Full-stack e Co-fundador da **Core & Patch**. Especialista em arquitetura SaaS, automações e sistemas escaláveis utilizando ecossistemas modernos como React.js, Next.js, TypeScript e Node.js.
+## Versões publicadas
 
-## 🛠️ Tecnologias Utilizadas
-- **Frontend:** HTML5, CSS3, JavaScript, Next.js, Tailwind CSS.
-- **Backend:** Node.js, PHP, tRPC.
-- **Banco de Dados & ORM:** PostgreSQL, MySQL, Supabase, Drizzle, Prisma.
-- **Ferramentas:** Docker, Git, Figma.
+| Idioma | Página | PDF |
+| --- | --- | --- |
+| Português | [artur-source.github.io/artur-alves-curriculo](https://artur-source.github.io/artur-alves-curriculo/) | [Baixar Currículo PT-BR](https://artur-source.github.io/artur-alves-curriculo/Curriculo-Artur-Alves-Santos.pdf) |
+| English | [artur-source.github.io/artur-alves-curriculo/en](https://artur-source.github.io/artur-alves-curriculo/en/) | [Download Resume EN](https://artur-source.github.io/artur-alves-curriculo/Resume-Artur-Alves-Santos.pdf) |
 
-## 📂 Projetos em Destaque
-- **RegiFlex:** Plataforma SaaS para gestão de saúde ([appregiflex.com.br](https://appregiflex.com.br)).
-- **JV STORE:** E-commerce de alta performance ([jvstore.com.br](https://jvstore.com.br)).
-- **Core & Patch:** Software House ([core-patch-website.vercel.app](https://core-patch-website.vercel.app/)).
+## Perfil
 
-## 📄 Como visualizar
-O currículo está disponível publicamente através do GitHub Pages:
-👉 [Visualizar Currículo](https://artur-source.github.io/artur-alves-curriculo/)
+Artur Alves Santos é Desenvolvedor Full Stack, Analista de Sistemas e profissional de Suporte Técnico, com atuação em aplicações web e SaaS, integração de APIs, bancos de dados, troubleshooting, implantação, testes e deploy. É co-fundador da Core & Patch e formado em Tecnologia em Análise e Desenvolvimento de Sistemas pela UniPiaget, concluído em 2026.
 
----
-© 2026 Artur Alves.
+## Stack
+
+O currículo organiza a stack por contexto: TypeScript, JavaScript, SQL e Python; React, Next.js, HTML5, CSS3 e Tailwind CSS; Node.js, tRPC, REST APIs e Drizzle ORM; PostgreSQL e Supabase; Git, GitHub, Docker, Vercel e n8n.
+
+## Estrutura do projeto
+
+- `index.html`: currículo em português.
+- `en/index.html`: resume em inglês.
+- `curriculo-styles.css`: sistema visual compartilhado e responsivo.
+- `curriculo-script.js`: menu mobile, navegação ativa e microinterações.
+- `Curriculo-Artur-Alves-Santos.pdf`: PDF PT-BR enviado pelo usuário.
+- `Resume-Artur-Alves-Santos.pdf`: PDF EN enviado pelo usuário.
+- `robots.txt` e `sitemap.xml`: SEO técnico básico.
+
+O projeto continua estático, sem framework, bundler, backend ou formulário que exija infraestrutura adicional.
+
+## Contato
+
+- [GitHub](https://github.com/artur-source)
+- [LinkedIn](https://www.linkedin.com/in/artur-alves-a4b297338)
+- [E-mail](mailto:arturalvessantos2@gmail.com)
+- [WhatsApp](https://wa.me/5511940572858)
+- [Portfólio](https://artur-source.github.io/portfolio-artur-novo/)
+
+© 2026 Artur Alves Santos.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artur-source.github.io/artur-alves-curriculo/sitemap.xml

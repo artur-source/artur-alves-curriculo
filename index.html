@@ -1,288 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Currículo de Artur Alves - Desenvolvedor Full-stack e Co-fundador da Core & Patch">
-    <meta name="keywords" content="Currículo, Artur Alves, Desenvolvedor Full-stack, Core & Patch, React, Next.js, TypeScript, Node.js, SaaS">
-    <meta name="author" content="Artur Alves">
-    <title>Artur Alves - Currículo | Desenvolvedor Full-stack</title>
-    
-    <!-- Importação de Fontes Google -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
-    
-    <!-- Estilos CSS -->
+    <meta name="description" content="Currículo de Artur Alves Santos, Desenvolvedor Full Stack, Analista de Sistemas e Suporte Técnico.">
+    <meta name="author" content="Artur Alves Santos">
+    <meta name="theme-color" content="#0b0d0f">
+    <link rel="canonical" href="https://artur-source.github.io/artur-alves-curriculo/">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="256x256" href="favicon-256.png">
+    <link rel="apple-touch-icon" href="favicon-256.png">
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://artur-source.github.io/artur-alves-curriculo/">
+    <meta property="og:title" content="Artur Alves Santos | Currículo">
+    <meta property="og:description" content="Desenvolvedor Full Stack, Analista de Sistemas e Suporte Técnico.">
+    <meta property="og:image" content="https://artur-source.github.io/portfolio-artur-novo/assets/og-card.png">
+    <meta name="twitter:card" content="summary">
+    <title>Artur Alves Santos | Currículo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="curriculo-styles.css">
-    <link rel="stylesheet" href="portfolio-animations.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Artur Alves Santos",
+        "jobTitle": "Desenvolvedor Full Stack | Analista de Sistemas | Suporte Técnico",
+        "url": "https://artur-source.github.io/artur-alves-curriculo/",
+        "email": "mailto:arturalvessantos2@gmail.com",
+        "sameAs": ["https://github.com/artur-source", "https://www.linkedin.com/in/artur-alves-a4b297338"]
+    }
+    </script>
 </head>
-<body>
-    <!-- ================================================================
-         HEADER FIXO COM NAVEGAÇÃO
-         ================================================================ -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <!-- Logo Minimalista -->
-                <a href="#inicio" class="logo">
-                    <span class="logo-text">AA</span>
-                </a>
-                
-                <!-- Botão Menu Hamburger (Mobile) -->
-                <button class="menu-toggle" aria-label="Abrir menu de navegação">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                
-                <!-- Navegação Principal -->
-                <nav class="nav">
-                    <a href="#inicio" class="nav-link">Início</a>
-                    <a href="#resumo" class="nav-link">Resumo</a>
-                    <a href="#experiencia" class="nav-link">Experiência</a>
-                    <a href="#formacao" class="nav-link">Formação</a>
-                    <a href="#habilidades" class="nav-link">Habilidades</a>
-                    <a href="#contato" class="nav-link">Contato</a>
-                </nav>
-            </div>
+<body data-lang="pt">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header" data-header>
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="Artur Alves Santos — início"><span class="brand-mark">AA</span><span class="brand-name">Artur Alves Santos</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Abrir menu</span><span></span><span></span></button>
+            <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+                <a href="#resumo">Resumo</a><a href="#experiencia">Experiência</a><a href="#habilidades">Habilidades</a><a href="#formacao">Formação</a><a href="#contato">Contato</a>
+                <span class="language-switch" aria-label="Idioma"><a class="language-switch__active" href="./">PT</a><span>/</span><a href="en/">EN</a></span>
+            </nav>
         </div>
     </header>
 
-    <!-- ================================================================
-         SEÇÃO HERO (Apresentação Principal)
-         ================================================================ -->
-    <section id="inicio" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Artur Alves</h1>
-                <p class="hero-subtitle">Desenvolvedor Full-stack | Co-fundador da Core & Patch</p>
-                <p class="hero-description">
-                    Especialista em arquitetura SaaS, automações e sistemas escaláveis utilizando ecossistemas modernos. Focado em transformar requisitos de negócio em produtos digitais funcionais com alta segurança e performance.
-                </p>
-                
-                <!-- Call-to-Action -->
-                <div class="hero-cta">
-                    <a href="https://wa.me/5511940572858?text=Ol%C3%A1%2C%20vi%20seu%20curr%C3%ADculo%20e%20gostaria%20de%20entrar%20em%20contato." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Entre em Contato (WhatsApp)</a>
-                    <a href="https://artur-source.github.io/portfolio-artur-novo/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Ver Portfólio</a>
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-main reveal">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> Currículo profissional / 2026</p>
+                    <h1 id="hero-title">Artur Alves<br><em>Santos.</em></h1>
+                    <p class="hero-role">Desenvolvedor Full Stack <span>/</span> Analista de Sistemas <span>/</span> Suporte Técnico</p>
+                    <p class="hero-description">Desenvolvo aplicações web e sistemas SaaS, atuando do levantamento de requisitos ao deploy, com experiência em React, Next.js, TypeScript, Node.js, PostgreSQL e Supabase.</p>
+                    <div class="hero-actions"><a class="button button--primary" href="Curriculo-Artur-Alves-Santos.pdf" download>Baixar currículo <span>↓</span></a><a class="button button--secondary" href="https://artur-source.github.io/portfolio-artur-novo/" target="_blank" rel="noopener noreferrer">Ver portfólio <span>↗</span></a></div>
                 </div>
+                <aside class="hero-card reveal reveal--delay" aria-label="Dados de contato">
+                    <div class="hero-card__top"><span>PERFIL / PT-BR</span><span>01—06</span></div>
+                    <div class="hero-card__identity"><span class="hero-initials">AA</span><div><strong>Desenvolvedor<br>Full Stack</strong><span>Itaquaquecetuba — SP</span></div></div>
+                    <dl class="quick-facts"><div><dt>Atuação atual</dt><dd>Core &amp; Patch</dd></div><div><dt>Formação</dt><dd>ADS / 2026</dd></div><div><dt>Contato</dt><dd>WhatsApp / e-mail</dd></div></dl>
+                    <a class="card-link" href="#contato">Entrar em contato <span>↗</span></a>
+                </aside>
             </div>
-        </div>
-    </section>
+            <div class="container hero-footer"><span>Full Stack · SaaS · Sistemas web · Suporte</span><span class="hero-footer__line"></span><span>PT-BR</span></div>
+        </section>
 
-    <!-- ================================================================
-         SEÇÃO RESUMO PROFISSIONAL
-         ================================================================ -->
-    <section id="resumo" class="resumo">
-        <div class="container">
-            <h2 class="section-title">Resumo Profissional</h2>
-            
-            <div class="resumo-content">
-                <p>
-                    Desenvolvedor Full-stack e Co-fundador da <strong>Core & Patch</strong>. Especialista em arquitetura SaaS, automações e sistemas escaláveis utilizando ecossistemas modernos. Focado em transformar requisitos de negócio em produtos digitais funcionais com alta segurança e performance.
-                </p>
-            </div>
-        </div>
-    </section>
+        <section class="section section--paper" id="resumo" aria-labelledby="summary-title">
+            <div class="container split-layout"><div class="section-label reveal"><span>01</span><p>Resumo profissional</p></div><div class="section-content reveal reveal--delay"><h2 id="summary-title">Entre produto, dados e operação.</h2><p class="lead">Desenvolvedor Full Stack e Analista de Sistemas formado em Análise e Desenvolvimento de Sistemas, com experiência em aplicações web e SaaS, suporte técnico, integração de APIs e banco de dados.</p><p>Atuo com React, Next.js, TypeScript, Node.js, PostgreSQL, Supabase, SQL e Git. Também possuo experiência com troubleshooting, análise de logs, implantação, testes e deploy.</p></div></div>
+        </section>
 
-    <!-- ================================================================
-         SEÇÃO EXPERIÊNCIA PROFISSIONAL
-         ================================================================ -->
-    <section id="experiencia" class="experiencia">
-        <div class="container">
-            <h2 class="section-title">Experiência Profissional</h2>
-            
-            <div class="timeline">
-                <!-- Experiência 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Co-fundador & Lead Técnico</h3>
-                        <p class="empresa">Core & Patch</p>
-                        <p class="periodo">Janeiro 2024 – Presente</p>
-                        <ul class="responsabilidades">
-                            <li>Liderança técnica no desenvolvimento de sistemas SaaS multi-tenant e automações personalizadas.</li>
-                            <li>Gestão completa do ciclo de vida do software, do levantamento de requisitos ao deploy via Vercel.</li>
-                        </ul>
-                    </div>
-                </div>
+        <section class="section" id="experiencia" aria-labelledby="experience-title">
+            <div class="container split-layout"><div class="section-label reveal"><span>02</span><p id="experience-title">Experiência profissional</p></div><div class="experience-list reveal reveal--delay">
+                <article class="experience-item experience-item--current"><div class="experience-date">jan/2025<br>— atual</div><div class="experience-body"><p class="experience-company">Core &amp; Patch</p><h2>Co-fundador &amp; Desenvolvedor Full Stack</h2><ul><li>Planejei e desenvolvi 4 soluções digitais, incluindo e-commerce, SaaS de gestão clínica, sistema interno e PDV simplificado, atuando do levantamento de requisitos ao deploy.</li><li>Coloquei o JV Store em produção para cliente real, desenvolvendo autenticação, painel administrativo, fluxo de compra e gerenciamento de mais de 200 produtos com atualização de estoque.</li><li>Desenvolvi o RegiFlex, SaaS multi-tenant com mais de 15 módulos, isolamento por clínica e sessão operacional, fila de atendimento, check-in por QR Code, tracking por token, RBAC, faturamento e painel administrativo.</li></ul></div></article>
+                <article class="experience-item"><div class="experience-date">mai/2025<br>— ago/2026</div><div class="experience-body"><p class="experience-company">CI Informática</p><h2>Analista de Suporte Júnior <small>jun/2026 — ago/2026</small></h2><div class="role-history"><span>Auxiliar Técnico <small>set/2025 — mai/2026</small></span><span>Estagiário de TI <small>mai/2025 — ago/2025</small></span></div><p class="promotion-note">Promovido duas vezes durante minha trajetória na empresa.</p><ul><li>Atendi aproximadamente 250–300 chamados mensais em uma operação com quase 800 clientes, por telefone, WhatsApp, tickets e acesso remoto.</li><li>Mantive cerca de 90% de resolução sem escalonamento ao N2, utilizando troubleshooting, análise de logs, SQL e investigação de banco de dados.</li><li>Prestei suporte aos sistemas Controle na Mão, SWFast, Connect Store e Delivery VIP, além de realizar implantações, testes em ambiente separado e treinamento de usuários.</li><li>Desenvolvi um aplicativo interno para automatizar ajustes no Windows e no sistema utilizado pela empresa em cenários de lentidão e falhas recorrentes.</li></ul></div></article>
+            </div></div>
+        </section>
 
-                <!-- Experiência 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Auxiliar Técnico</h3>
-                        <p class="empresa">Ci Informática</p>
-                        <p class="periodo">Setembro 2025 – Presente</p>
-                        <ul class="responsabilidades">
-                            <li>Suporte técnico avançado, análise de infraestrutura e otimização de rotinas sistêmicas.</li>
-                        </ul>
-                    </div>
-                </div>
+        <section class="section section--paper" id="habilidades" aria-labelledby="skills-title">
+            <div class="container split-layout"><div class="section-label reveal"><span>03</span><p id="skills-title">Competências</p></div><div class="skills-layout reveal reveal--delay">
+                <div class="skill-group"><h2>Linguagens</h2><div class="tag-list"><span>TypeScript</span><span>JavaScript</span><span>SQL</span><span>Python</span></div></div><div class="skill-group"><h2>Front-end</h2><div class="tag-list"><span>React</span><span>Next.js</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span></div></div><div class="skill-group"><h2>Back-end</h2><div class="tag-list"><span>Node.js</span><span>tRPC</span><span>REST APIs</span><span>Drizzle ORM</span></div></div><div class="skill-group"><h2>Banco de dados / BaaS</h2><div class="tag-list"><span>PostgreSQL</span><span>Supabase</span></div></div><div class="skill-group"><h2>Ferramentas</h2><div class="tag-list"><span>Git</span><span>GitHub</span><span>Docker</span><span>Vercel</span><span>n8n</span></div></div>
+            </div></div>
+        </section>
 
-                <!-- Experiência 3 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Estagiário</h3>
-                        <p class="empresa">Ci Informática</p>
-                        <p class="periodo">Março 2025 – Agosto 2025</p>
-                        <ul class="responsabilidades">
-                            <li>Suporte operacional e mitigação de falhas em ambientes Windows.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section class="section" id="projetos" aria-labelledby="projects-title"><div class="container split-layout"><div class="section-label reveal"><span>04</span><p id="projects-title">Projetos selecionados</p></div><div class="project-list reveal reveal--delay"><article class="project-item"><div class="project-index">01</div><div><p class="project-kicker">SaaS / Full Stack</p><h2>RegiFlex</h2><p>Arquitetura multi-tenant com isolamento por clínica, controle de acesso baseado em perfis, fila operacional e check-in por QR Code, integração com Stripe e Resend e testes automatizados com Vitest.</p><div class="tag-list"><span>React</span><span>TypeScript</span><span>tRPC</span><span>Drizzle ORM</span><span>PostgreSQL</span><span>Supabase</span><span>Stripe</span></div><a class="text-link" href="https://appregiflex.com.br" target="_blank" rel="noopener noreferrer">Visitar projeto <span>↗</span></a></div></article><article class="project-item"><div class="project-index">02</div><div><p class="project-kicker">E-commerce / Full Stack</p><h2>JV Store</h2><p>E-commerce em produção para cliente real, com autenticação, painel administrativo, fluxo de compra e catálogo com mais de 200 produtos e atualização automática de estoque.</p><div class="tag-list"><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span></div><a class="text-link" href="https://jvstore.com.br" target="_blank" rel="noopener noreferrer">Visitar projeto <span>↗</span></a></div></article></div></div></section>
 
-    <!-- ================================================================
-         SEÇÃO FORMAÇÃO ACADÊMICA
-         ================================================================ -->
-    <section id="formacao" class="formacao">
-        <div class="container">
-            <h2 class="section-title">Formação Acadêmica & Certificações</h2>
-            
-            <div class="formacao-grid">
-                <!-- Formação 1 -->
-                <div class="formacao-card">
-                    <div class="formacao-header">
-                        <h3>Graduação: ADS</h3>
-                        <span class="formacao-badge">Em Andamento</span>
-                    </div>
-                    <p class="instituicao">UniPiaget</p>
-                    <p class="periodo">Conclusão em 2026</p>
-                    <p class="descricao">Fundamentos sólidos de programação, banco de dados, requisitos, arquitetura, redes, modelagem e construção de sistemas.</p>
-                </div>
+        <section class="section section--paper" id="formacao" aria-labelledby="education-title"><div class="container split-layout"><div class="section-label reveal"><span>05</span><p id="education-title">Formação e idiomas</p></div><div class="education-grid reveal reveal--delay"><article><p class="card-kicker">Formação</p><h2>Tecnologia em Análise e Desenvolvimento de Sistemas</h2><p>UniPiaget</p><strong>Concluído em 2026</strong></article><article><p class="card-kicker">Idioma</p><h2>Inglês</h2><p>Leitura de documentação técnica e comunicação básica.</p><strong>Português — nativo</strong></article></div></div></section>
 
-                <!-- Formação 2 -->
-                <div class="formacao-card">
-                    <div class="formacao-header">
-                        <h3>Idiomas</h3>
-                    </div>
-                    <p class="instituicao">Wizard</p>
-                    <p class="periodo">Inglês Intermediário</p>
-                </div>
-
-                <!-- Formação 3 -->
-                <div class="formacao-card">
-                    <div class="formacao-header">
-                        <h3>Certificações</h3>
-                    </div>
-                    <p class="instituicao">SENAI / Autodidata</p>
-                    <p class="descricao">Informática Básica (SENAI) e especializações em Cibersegurança e Machine Learning.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         SEÇÃO HABILIDADES
-         ================================================================ -->
-    <section id="habilidades" class="habilidades">
-        <div class="container">
-            <h2 class="section-title">Habilidades Técnicas</h2>
-            
-            <div class="habilidades-container">
-                <div class="habilidades-grupo">
-                    <h3 class="habilidades-titulo">Tecnologias</h3>
-                    <div class="skills-grid">
-                        <div class="skill-tag">React.js</div>
-                        <div class="skill-tag">Next.js</div>
-                        <div class="skill-tag">TypeScript</div>
-                        <div class="skill-tag">Node.js</div>
-                        <div class="skill-tag">PHP</div>
-                        <div class="skill-tag">Python</div>
-                    </div>
-                </div>
-                <div class="habilidades-grupo">
-                    <h3 class="habilidades-titulo">Dados & ORM</h3>
-                    <div class="skills-grid">
-                        <div class="skill-tag">PostgreSQL</div>
-                        <div class="skill-tag">MySQL</div>
-                        <div class="skill-tag">Supabase</div>
-                        <div class="skill-tag">Drizzle</div>
-                        <div class="skill-tag">Prisma</div>
-                    </div>
-                </div>
-                <div class="habilidades-grupo">
-                    <h3 class="habilidades-titulo">Arquitetura & Design</h3>
-                    <div class="skills-grid">
-                        <div class="skill-tag">tRPC</div>
-                        <div class="skill-tag">SaaS Multi-tenant</div>
-                        <div class="skill-tag">Docker</div>
-                        <div class="skill-tag">Tailwind CSS</div>
-                        <div class="skill-tag">Figma</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         SEÇÃO PROJETOS RELEVANTES
-         ================================================================ -->
-    <section id="projetos" class="projetos">
-        <div class="container">
-            <h2 class="section-title">Projetos Relevantes</h2>
-            <div class="projetos-grid">
-                <div class="projeto-item">
-                    <h3>RegiFlex</h3>
-                    <p>Plataforma SaaS Full-stack para gestão de pacientes com rastreabilidade via QR Code e UX otimizada para saúde.</p>
-                    <a href="https://appregiflex.com.br" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
-                </div>
-                <div class="projeto-item">
-                    <h3>JV STORE</h3>
-                    <p>E-commerce de alta performance focado em conversão mobile e gestão de inventário em tempo real.</p>
-                    <a href="https://jvstore.com.br" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         SEÇÃO CONTATO
-         ================================================================ -->
-    <section id="contato" class="contato">
-        <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
-            <p class="contact-subtitle">Vamos conversar sobre oportunidades e projetos!</p>
-            
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <h4>Telefone</h4>
-                    <a href="https://wa.me/5511940572858?text=Ol%C3%A1%2C%20vi%20seu%20curr%C3%ADculo%20e%20gostaria%20de%20entrar%20em%20contato." target="_blank" rel="noopener noreferrer">+55 (11) 94057-2858 (WhatsApp)</a>
-                </div>
-                
-                <div class="contact-item">
-                    <h4>Email</h4>
-                    <a href="mailto:arturalvessantos2@gmail.com">arturalvessantos2@gmail.com</a>
-                </div>
-                
-                <div class="contact-item">
-                    <h4>Redes Sociais</h4>
-                    <div class="social-links">
-                        <a href="https://github.com/artur-source" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="https://linkedin.com/in/artur-alves-santos" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <h4>Portfólio</h4>
-                    <a href="https://artur-source.github.io/portfolio-artur-novo/" target="_blank" rel="noopener noreferrer">Visualizar Portfólio</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         FOOTER
-         ================================================================ -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Artur Alves. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="curriculo-script.js"></script>
+        <section class="contact-section" id="contato" aria-labelledby="contact-title"><div class="container contact-layout"><div class="reveal"><p class="eyebrow">06 / Contato</p><h2 id="contact-title">Aberto a oportunidades em desenvolvimento e suporte de aplicações.</h2><a class="button button--dark" href="mailto:arturalvessantos2@gmail.com">Enviar e-mail <span>↗</span></a></div><div class="contact-list reveal reveal--delay"><a href="mailto:arturalvessantos2@gmail.com"><span>E-mail</span><strong>arturalvessantos2@gmail.com</strong><b>↗</b></a><a href="https://wa.me/5511940572858" target="_blank" rel="noopener noreferrer"><span>WhatsApp</span><strong>+55 (11) 94057-2858</strong><b>↗</b></a><a href="https://www.linkedin.com/in/artur-alves-a4b297338" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>artur-alves-a4b297338</strong><b>↗</b></a><a href="https://github.com/artur-source" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>github.com/artur-source</strong><b>↗</b></a></div></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Artur Alves Santos</span><span>Currículo em português</span><a href="en/">Read in English ↗</a></div></footer>
+    <script src="curriculo-script.js" defer></script>
 </body>
 </html>
